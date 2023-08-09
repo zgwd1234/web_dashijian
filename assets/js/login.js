@@ -44,7 +44,7 @@ $(function () {
         // 阻止默认提交表单的行为
         e.preventDefault()
         $.ajax({
-            url:'http://ajax.frontend.itheima.net/api/login/',
+            url:'/api/login/',
             method:'POST',
             // 快速获取表单的途径
             data:$(this).serialize(),
